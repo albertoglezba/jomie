@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  real_estate_type: MyString
+  street: MyText
+  external_number: MyString
+  internal_number: MyString
+  neighborhood: MyText
+  city: MyText
+  country: MyString
+  rooms: 1
+  bathrooms: 1
+  comments: MyText
+
+two:
+  name: MyText
+  real_estate_type: MyString
+  street: MyText
+  external_number: MyString
+  internal_number: MyString
+  neighborhood: MyText
+  city: MyText
+  country: MyString
+  rooms: 1
+  bathrooms: 1
+  comments: MyText
