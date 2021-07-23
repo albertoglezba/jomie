@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This webapp tries to be helpful for managing a Real State business in early days
 
-Things you may want to cover:
+Things you may want to cover before `rails s`:
 
-* Ruby version
+* Ruby version: `ruby 2.5.8p224 (2020-03-31 revision 67882) [x86_64-linux]`
 
-* System dependencies
+* Rails version: `Rails 5.1.7`
 
-* Configuration
+* System dependencies:` mysql -V Ver 15.1 Distrib 10.5.10-MariaDB, for debian-linux-gnu (x86_64)`
 
-* Database creation
+* Configuration: `Debian 5.10.28-1 (2021-04-09) x86_64 GNU/Linux` (bullseye)
 
-* Database initialization
+* Database creation: `rake db:create`
 
-* How to run the test suite
+* Database initialization: N/A
 
-* Services (job queues, cache servers, search engines, etc.)
+* How to run the test suite. N/A
 
-* Deployment instructions
+* Services (job queues, cache servers, search engines, etc.): N/A
+
+* Deployment instructions: Not yet
 
 * ...
