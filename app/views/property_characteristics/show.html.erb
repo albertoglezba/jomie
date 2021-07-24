@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Property:</strong>
+  <%= @property_characteristic.property_id %>
+</p>
+
+<p>
+  <strong>Rooms:</strong>
+  <%= @property_characteristic.rooms %>
+</p>
+
+<p>
+  <strong>Bathrooms:</strong>
+  <%= @property_characteristic.bathrooms %>
+</p>
+
+<%= link_to 'Edit', edit_property_characteristic_path(@property_characteristic) %> |
+<%= link_to 'Back', property_characteristics_path %>

@@ -1,4 +1,44 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Name:</strong>
+  <%= @property.name %>
+</p>
+
+<p>
+  <strong>Real state type:</strong>
+  <%= @property.real_state_type %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @property.street %>
+</p>
+
+<p>
+  <strong>External number:</strong>
+  <%= @property.external_number %>
+</p>
+
+<p>
+  <strong>Internal number:</strong>
+  <%= @property.internal_number %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @property.neighborhood %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @property.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @property.country %>
+</p>
+
 <%= link_to 'Edit', edit_property_path(@property) %> |
 <%= link_to 'Back', properties_path %>

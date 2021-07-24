@@ -1,0 +1,2 @@
+class PropertyComment < ApplicationRecord
+end

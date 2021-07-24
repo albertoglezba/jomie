@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Property Comments</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Comment</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @property_comments.each do |property_comment| %>
+      <tr>
+        <td><%= property_comment.property_id %></td>
+        <td><%= property_comment.comment %></td>
+        <td><%= link_to 'Show', property_comment %></td>
+        <td><%= link_to 'Edit', edit_property_comment_path(property_comment) %></td>
+        <td><%= link_to 'Destroy', property_comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Property Comment', new_property_comment_path %>

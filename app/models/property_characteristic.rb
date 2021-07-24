@@ -1,0 +1,2 @@
+class PropertyCharacteristic < ApplicationRecord
+end
