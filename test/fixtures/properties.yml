@@ -2,7 +2,7 @@
 
 one:
   name: MyText
-  real_state_type: MyString
+  real_estate_type: MyString
   street: MyText
   external_number: MyString
   internal_number: MyString
@@ -12,7 +12,7 @@ one:
 
 two:
   name: MyText
-  real_state_type: MyString
+  real_estate_type: MyString
   street: MyText
   external_number: MyString
   internal_number: MyString
